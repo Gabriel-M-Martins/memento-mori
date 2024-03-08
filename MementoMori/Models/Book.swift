@@ -8,6 +8,7 @@
 import Foundation
 import SwiftData
 
+@Model
 final class Book {
     var author: Author
     var desc: String

@@ -15,7 +15,8 @@ struct MementoMoriApp: App {
             Profile.self,
             Day.self,
             Author.self,
-            Quote.self
+            Quote.self,
+            Book.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
