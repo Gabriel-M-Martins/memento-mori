@@ -12,7 +12,10 @@ import SwiftData
 struct MementoMoriApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Profile.self,
+            Day.self,
+            Author.self,
+            Quote.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +28,10 @@ struct MementoMoriApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                CalendarView()
+            }
+            .preferredColorScheme(.light)
         }
         .modelContainer(sharedModelContainer)
     }

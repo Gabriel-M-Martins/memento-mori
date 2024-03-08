@@ -7,20 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A705331C2B9B587400BB4FCB /* CinzelDecorative-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A74DF1BF2B9B54DD00D45E17 /* CinzelDecorative-Regular.ttf */; };
+		A70533202B9B640800BB4FCB /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705331F2B9B640800BB4FCB /* Profile.swift */; };
+		A727C3652B9B895300232281 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = A727C3642B9B895300232281 /* Day.swift */; };
+		A727C36A2B9B89B900232281 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = A727C3692B9B89B900232281 /* Author.swift */; };
+		A727C36C2B9B89ED00232281 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A727C36B2B9B89ED00232281 /* Quote.swift */; };
+		A727C3702B9BAB2E00232281 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = A727C36F2B9BAB2E00232281 /* Book.swift */; };
 		A74DF1AC2B9B52F500D45E17 /* MementoMoriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74DF1AB2B9B52F500D45E17 /* MementoMoriApp.swift */; };
 		A74DF1AE2B9B52F500D45E17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74DF1AD2B9B52F500D45E17 /* ContentView.swift */; };
 		A74DF1B02B9B52F500D45E17 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74DF1AF2B9B52F500D45E17 /* Item.swift */; };
 		A74DF1B22B9B52F600D45E17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74DF1B12B9B52F600D45E17 /* Assets.xcassets */; };
 		A74DF1B52B9B52F600D45E17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74DF1B42B9B52F600D45E17 /* Preview Assets.xcassets */; };
+		A74DF1BD2B9B53C200D45E17 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74DF1BC2B9B53C200D45E17 /* CalendarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A705331F2B9B640800BB4FCB /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		A727C3642B9B895300232281 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		A727C3692B9B89B900232281 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		A727C36B2B9B89ED00232281 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		A727C36F2B9BAB2E00232281 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		A74DF1A82B9B52F500D45E17 /* MementoMori.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MementoMori.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74DF1AB2B9B52F500D45E17 /* MementoMoriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoMoriApp.swift; sourceTree = "<group>"; };
 		A74DF1AD2B9B52F500D45E17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A74DF1AF2B9B52F500D45E17 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		A74DF1B12B9B52F600D45E17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A74DF1B42B9B52F600D45E17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A74DF1BC2B9B53C200D45E17 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		A74DF1BF2B9B54DD00D45E17 /* CinzelDecorative-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CinzelDecorative-Regular.ttf"; path = "MementoMori/Fonts/CinzelDecorative-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		A74DF1C12B9B551000D45E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +49,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A705331D2B9B63DC00BB4FCB /* Placeholder */ = {
+			isa = PBXGroup;
+			children = (
+				A74DF1AD2B9B52F500D45E17 /* ContentView.swift */,
+				A74DF1AF2B9B52F500D45E17 /* Item.swift */,
+			);
+			path = Placeholder;
+			sourceTree = "<group>";
+		};
+		A727C3682B9B899800232281 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A705331F2B9B640800BB4FCB /* Profile.swift */,
+				A727C3642B9B895300232281 /* Day.swift */,
+				A727C3692B9B89B900232281 /* Author.swift */,
+				A727C36B2B9B89ED00232281 /* Quote.swift */,
+				A727C36F2B9BAB2E00232281 /* Book.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A74DF19F2B9B52F500D45E17 = {
 			isa = PBXGroup;
 			children = (
@@ -54,10 +90,13 @@
 			isa = PBXGroup;
 			children = (
 				A74DF1AB2B9B52F500D45E17 /* MementoMoriApp.swift */,
-				A74DF1AD2B9B52F500D45E17 /* ContentView.swift */,
-				A74DF1AF2B9B52F500D45E17 /* Item.swift */,
-				A74DF1B12B9B52F600D45E17 /* Assets.xcassets */,
+				A727C3682B9B899800232281 /* Models */,
+				A74DF1BB2B9B53A600D45E17 /* Calendar */,
+				A705331D2B9B63DC00BB4FCB /* Placeholder */,
+				A74DF1BE2B9B54D000D45E17 /* Fonts */,
 				A74DF1B32B9B52F600D45E17 /* Preview Content */,
+				A74DF1B12B9B52F600D45E17 /* Assets.xcassets */,
+				A74DF1C12B9B551000D45E17 /* Info.plist */,
 			);
 			path = MementoMori;
 			sourceTree = "<group>";
@@ -68,6 +107,22 @@
 				A74DF1B42B9B52F600D45E17 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A74DF1BB2B9B53A600D45E17 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				A74DF1BC2B9B53C200D45E17 /* CalendarView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		A74DF1BE2B9B54D000D45E17 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A74DF1BF2B9B54DD00D45E17 /* CinzelDecorative-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A74DF1B52B9B52F600D45E17 /* Preview Assets.xcassets in Resources */,
+				A705331C2B9B587400BB4FCB /* CinzelDecorative-Regular.ttf in Resources */,
 				A74DF1B22B9B52F600D45E17 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,7 +197,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A74DF1AE2B9B52F500D45E17 /* ContentView.swift in Sources */,
+				A727C3652B9B895300232281 /* Day.swift in Sources */,
+				A70533202B9B640800BB4FCB /* Profile.swift in Sources */,
 				A74DF1B02B9B52F500D45E17 /* Item.swift in Sources */,
+				A727C36C2B9B89ED00232281 /* Quote.swift in Sources */,
+				A727C3702B9BAB2E00232281 /* Book.swift in Sources */,
+				A74DF1BD2B9B53C200D45E17 /* CalendarView.swift in Sources */,
+				A727C36A2B9B89B900232281 /* Author.swift in Sources */,
 				A74DF1AC2B9B52F500D45E17 /* MementoMoriApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,11 +341,13 @@
 				DEVELOPMENT_TEAM = 73DNAYF2TM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MementoMori/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,11 +372,13 @@
 				DEVELOPMENT_TEAM = 73DNAYF2TM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MementoMori/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
