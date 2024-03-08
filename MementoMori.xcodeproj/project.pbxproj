@@ -19,6 +19,7 @@
 		A74DF1B22B9B52F600D45E17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74DF1B12B9B52F600D45E17 /* Assets.xcassets */; };
 		A74DF1B52B9B52F600D45E17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74DF1B42B9B52F600D45E17 /* Preview Assets.xcassets */; };
 		A74DF1BD2B9B53C200D45E17 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74DF1BC2B9B53C200D45E17 /* CalendarView.swift */; };
+		A7B160442B9BB9B700F2D8AB /* If.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B160432B9BB9B700F2D8AB /* If.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		A74DF1BC2B9B53C200D45E17 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		A74DF1BF2B9B54DD00D45E17 /* CinzelDecorative-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CinzelDecorative-Regular.ttf"; path = "MementoMori/Fonts/CinzelDecorative-Regular.ttf"; sourceTree = SOURCE_ROOT; };
 		A74DF1C12B9B551000D45E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A7B160432B9BB9B700F2D8AB /* If.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = If.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,22 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		A727C3712B9BB93F00232281 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A727C3722B9BB94700232281 /* Modifiers */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A727C3722B9BB94700232281 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				A7B160432B9BB9B700F2D8AB /* If.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
 		A74DF19F2B9B52F500D45E17 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +107,7 @@
 		A74DF1AA2B9B52F500D45E17 /* MementoMori */ = {
 			isa = PBXGroup;
 			children = (
+				A727C3712B9BB93F00232281 /* Utils */,
 				A74DF1AB2B9B52F500D45E17 /* MementoMoriApp.swift */,
 				A727C3682B9B899800232281 /* Models */,
 				A74DF1BB2B9B53A600D45E17 /* Calendar */,
@@ -204,6 +223,7 @@
 				A727C3702B9BAB2E00232281 /* Book.swift in Sources */,
 				A74DF1BD2B9B53C200D45E17 /* CalendarView.swift in Sources */,
 				A727C36A2B9B89B900232281 /* Author.swift in Sources */,
+				A7B160442B9BB9B700F2D8AB /* If.swift in Sources */,
 				A74DF1AC2B9B52F500D45E17 /* MementoMoriApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

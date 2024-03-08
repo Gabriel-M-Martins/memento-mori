@@ -11,12 +11,12 @@ import SwiftUI
 
 @Model
 final class Day {
-    var quote: Quote
-    var diary: String
-    var mood: Mood
     var date: Date
+    var quote: Quote
+    var diary: String?
+    var mood: Mood
     
-    init(quote: Quote, diary: String = "", mood: Mood = .Normal, date: Date = .now) {
+    init(quote: Quote, diary: String? = nil, mood: Mood = .Unknown, date: Date = .now) {
         self.quote = quote
         self.diary = diary
         self.mood = mood
@@ -25,7 +25,7 @@ final class Day {
 }
 
 enum Mood: Codable {
-    case Joyous, Good, Normal, Sad, Bad
+    case Joyous, Good, Normal, Sad, Bad, Unknown
     
     var icon: Image {
         switch self {
@@ -39,6 +39,8 @@ enum Mood: Codable {
             return Image(systemName: "arrow.down.forward")
         case .Bad:
             return Image(systemName: "arrow.down")
+        case .Unknown:
+            return Image(systemName: "questionmark")
         }
     }
     
@@ -54,6 +56,8 @@ enum Mood: Codable {
             return .sad
         case .Bad:
             return .bad
+        case .Unknown:
+            return .clear
         }
     }
 }
